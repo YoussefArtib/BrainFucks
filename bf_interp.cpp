@@ -80,7 +80,7 @@ std::vector<Inst_Num> parse_bf(const char* input, bool optimize) {
     std::stack<size_t> open_stack;
     std::ifstream file {input};
     if (!file) {
-        std::cerr << "Could not open file " << input << '\n';
+        std::cerr << "Error: Could not open file " << input << '\n';
         std::exit(1);
     }
 
