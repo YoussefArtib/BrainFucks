@@ -7,7 +7,7 @@ In case you wanna run the AOT you need to install [nasm](https://www.nasm.us/).
 # Quick start:
 NB: not passing any argument to ./make.sh will build everthing.
 ```console
-$ ./make.sh [--jit | --aot | --intrep | --all]
+$ ./make.sh [--jit | --aot | --interp | --all]
 ```
 Also, the AOT produces a .asm file, run the following commands to make an executable:
 ```console
